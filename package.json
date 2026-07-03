@@ -17,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/aryxn94/phonebrain-ai/issues"
   },
-  "homepage": "https://github.com/aryxn94/phonebrain-ai#readme"
+  "homepage": "https://github.com/aryxn94/phonebrain-ai#readme",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "backend",
+    "packages/*"
+  ]
 }
